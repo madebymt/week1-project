@@ -1,0 +1,152 @@
+nav {
+   margin: 30px;
+   text-align: center;
+   overflow: auto;
+
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:grey;
+  margin:40px;
+  font-size:20px;
+}
+
+a:active {
+    color:#968772;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+a:active {
+  text-decoration: #968772
+}
+
+.logo {
+  display: flex;
+  width:30px;
+  height: 30px;
+  float: left;
+}
+
+h1 {
+    color:#5E584F;
+    font-size: 60px;
+    text-align: center;
+    margin:30px;
+    letter-spacing:0.1em;
+
+}
+
+h2 {
+    color:white;;
+    font-size: 50px;
+    font-family:
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+blockquote {
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: : 50px;
+    font-style: italic;
+    border-left: 2px solid 	#696969;
+    color:grey;
+    padding-left: 20px;
+    }
+
+
+h3 {
+    color:#5E584F;
+    font-size: 20px;
+    margin-top: :20px;
+    margin-left: 120px;
+}
+
+.container1 {
+      background-color: #F2F1E8;
+      padding:20px;
+}
+
+.container2 {
+    background-image: url("optimized/background-3.jpg");
+    width: 1300px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic1 {
+    width: 15%;
+    height:15%;
+    float:left;
+    margin-right: 20px;
+    margin-left: 120px;
+}
+
+.pic2 {
+    width: 15%;
+    height:15%;
+    float: right;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: : 120px;
+}
+
+}
+
+.container2, .conatiner1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+
+
+footer {
+  color: white;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  background-color: #064A25;
+  margin: 10px;
+  padding: 20px;
+  display:flex;
+  flex-direction: left;
+}
+
+
+/* table */
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    color: grey;
+    margin-left: :120px;
+    padding:20px;
+    color:grey;
+    text-align: center;
+
+}
+
+table  {
+    margin-left: 120px;
+}
+
+tr:nth-child(even) {
+    background: #e3e0cf;
+}
+
+p {
+    color: grey;
+    margin-right: 120px;
+    margin-left: 120px;
+    line-height: 1.7em
+}

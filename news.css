@@ -1,0 +1,126 @@
+
+/* nav link & text */
+
+nav {
+   margin: 30px;
+   text-align: center;
+   overflow: auto;
+
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:grey;
+  margin:40px;
+  font-size:20px;
+}
+
+a:active {
+    color:#968772;
+}
+
+a:hover {
+  color: #CD5D67;
+}
+
+a:active {
+  text-decoration: #968772
+}
+
+.logo {
+  display: flex;
+  width:30px;
+  height: 30px;
+  float: left;
+}
+
+.form-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.form {
+  background: white;
+  width: 700px;
+  height: 400px;
+  padding:10px;
+
+}
+
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color:grey;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color:grey;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+
+.body {
+  background-image: url("optimized/background-2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding:40px;
+  s
+
+
+}
+button {
+        background-color: #DB8155;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        font-size: 15px;
+        margin-left: 300px;
+    /*background: brown;
+    color:white;
+    font: 18px;
+    font-family:
+    padding:15px;
+    margin:10px;*/
+}
+
+
+
+.form-style input[type="text"]   {
+     box-sizing: border-box;
+     outline: none;
+     display: block;
+     width: 100%;
+     padding: 7px;
+     border: none;
+     border-bottom: 2px solid #DB8155;
+     margin-bottom: 10px;
+     height: 45px;
+}
+
+.form-style label {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    text-align: right;
+    margin:20px;
+
+}
+
+label[for="Name"],
+label[for="Email"] {
+    color:#DB8155;
+    font-family:'Merriweather', serif;
+}
