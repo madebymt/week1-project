@@ -74,7 +74,7 @@ h3 {
 
 .container2 {
     background-image: url("optimized/background-3.jpg");
-    background-size: auto;
+    /*background-size: auto;*/
     height: 350px;
     display: flex;
     justify-content: center;
@@ -88,15 +88,6 @@ h3 {
     float:left;
     margin-right: 20px;
     margin-left: 120px;
-}
-
-.pic2 {
-    width: 15%;
-    height:15%;
-    float: right;
-    width: 150px;
-    margin-left: 20px;
-    margin-right: : 120px;
 }
 
 }
@@ -145,8 +136,17 @@ tr:nth-child(even) {
 }
 
 p {
+    width:900px;
     color: grey;
     margin-right: 120px;
     margin-left: 120px;
     line-height: 1.7em
+}
+
+.pic2 {
+    width: 15%;
+    height:15%;
+    float: right;
+    margin-right: 180px;
+
 }
